@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <title>Weather</title>
+</head>
+
+<body>
+    <header>
+        <div id="headerSection">
+            <div id="logo"><img src="../Images/Astrobit-logo.png" width="350px"></div>
+            <div id="headerLinks">
+                <a href="home.html" target="_self">Home</a>
+                <a href="posts.html" target="_self">Posts</a>
+                <a href="weather.html" target="_self">Weather</a>
+            </div>
+        </div>
+
+        <div id="websiteIntroSection">
+            <div id="introContainer">
+                <div id="websiteIntro">
+                    <h1><b>This game is awesome</b></h1>
+                    <p>Classic arcade shooter vibes meet modern multiplayer action! Craft unique spaceships with powerful abilities and weapons. Join fast-paced online PvP battles with randoms, or with friends – all for FREE! </p>
+                    <button class="wishlist"><b>Wishlist</b></button>
+                </div>
+            </div>
+            <div id ="websiteIntroImage">
+                <img src="../Images/Astrobit.png" height=100%>
+            </div>
+        </div>
+    </header>
+
+    <div id="postSection">
+    </div>
+    <footer>
+        <p>Copyright ©</p>
+    </footer>
+
+    <script>
+        // Select all buttons with the class 'wishlist'
+        const buttons = document.querySelectorAll(".wishlist");
+      
+        // Loop through each button
+        buttons.forEach(button => {
+          button.onclick = function() {
+            window.open("https://store.steampowered.com/app/2255440/Astrobit/", '_blank');
+          };
+        });
+    </script>
+
+    <script src="../JS/weather.js"></script>
+</body>
+</html>

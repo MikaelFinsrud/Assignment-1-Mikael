@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <div id="headerSection">
+            <div id="logo"><img src="../Images/Astrobit-logo.png" width="350px"></div>
+            <div id="headerLinks">
+                <a href="home.html" target="_self">Home</a>
+                <a href="posts.html" target="_self">Posts</a>
+                <a href="weather.html" target="_self">Weather</a>
+            </div>
+        </div>
+
+        <div id="websiteIntroSection">
+            <div id="introContainer">
+                <div id="websiteIntro">
+                    <h1><b>This game is awesome</b></h1>
+                    <p>Classic arcade shooter vibes meet modern multiplayer action! Craft unique spaceships with powerful abilities and weapons. Join fast-paced online PvP battles with randoms, or with friends – all for FREE! </p>
+                    <button class="wishlist"><b>Wishlist</b></button>
+                </div>
+            </div>
+            <div id ="websiteIntroImage">
+                <img src="../Images/Astrobit.png" height=100%>
+            </div>
+        </div>
+    </header>
+
+    <h2 id="center">What is Astrobit?</h2>
+    <div id="infoSection">
+        <div>
+            <div class="infoPart">
+                <div class="blueBox"></div>
+                <div class="textBox">Astrobit is a fast-paced online multiplayer top-down shooter where you create your own spaceships by combinining weapons, abilities and other components.</div>
+            </div>
+            
+            <div class="infoPart">
+                <div class="textBox">You bring your awesome self-crafted spaceships into epic battles against other players. Astrobit tests your shooter skills, but also allows you to unleash your creativity when creating your spaceships!</div>
+                <div class="blueBox"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="quoteSection">
+        <div id="quoteBox">
+            <span id="quote"><i>I really love this game, it's super fun, especially with friends. The fast-paced combat and the creative freedom is a great mix. It feels so good to create cool builds and see that they work in a battle! 9/10</i></span> 
+            <div id="signature"><b>-Thor</b></div>
+        </div>
+    </div>
+
+    <div id="ctaSection">
+        <div id="cta">
+            <div id="ctaTextSection">
+                <span><b>Wishlist Astrobit on Steam now!</b><br>Be notified when it releases, and get a free cosmetic!</span>
+            </div>
+            <div id="ctaButtonSection">
+                <button class="wishlist"><b>Wishlist</b></button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright ©</p>
+    </footer>
+
+    <script>
+        // Select all buttons with the class 'wishlist'
+        const buttons = document.querySelectorAll(".wishlist");
+      
+        // Loop through each button
+        buttons.forEach(button => {
+          button.onclick = function() {
+            window.open("https://store.steampowered.com/app/2255440/Astrobit/", '_blank');
+          };
+        });
+    </script>
+</body>
+</html>

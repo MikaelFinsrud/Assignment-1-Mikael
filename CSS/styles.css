@@ -1,0 +1,227 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(Fonts/Roboto-Medium.ttf) format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(Fonts/Roboto-Black.ttf) format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(Fonts/Roboto-Italic.ttf) format('truetype');
+    font-weight: italic;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 150%;
+}
+
+header{
+    background-color: #181d31;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #2f90ff;
+    text-decoration: none;
+}
+
+a:active{
+    color: rgb(27, 113, 226);
+    text-decoration: none;
+}
+
+#headerSection{
+    border-bottom: 1px solid #5f83ac;
+    text-align: center;
+}
+
+#logo{
+    padding: 30px 0px 30px 0px;
+}
+
+#headerLinks{
+    padding-bottom: 30px;
+    gap: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+#websiteIntroSection{
+    padding: 80px 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#introContainer{
+    display: flex;
+    justify-content: right;
+}
+
+#websiteIntro{
+    margin: 0px 100px 0px 0px;
+    width: 50%;
+}
+
+#websiteIntroSection h1 {
+    margin: 0;
+}
+
+#websiteIntroSection p {
+    margin: 20px 0px;
+}
+
+#websiteIntroSection button{
+    width: 160px;
+    height: 45px;
+    font-size: 100%;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    background-color: #2f90ff;
+}
+
+#infoSection{
+    display: flex;
+    justify-content: center;
+}
+
+#center{
+    text-align: center;
+}
+
+.infoPart{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    padding-bottom: 70px;
+}
+
+.textBox{
+    width: 55%;
+    display: inline-block;
+}
+
+.blueBox{
+    display: inline-block;
+    width: 35%;
+    height: 200px;
+    border: solid 6px #2f90ff;
+    border-radius: 5px;
+}
+
+#quoteSection{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #e7e7e7;
+    height: 400px;
+    font-size: 120%;
+}
+
+#quoteBox{
+    width: 700px;
+}
+
+#quote{
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);;
+}
+
+#signature{
+    margin: none;
+    padding: none;
+    text-align: right;
+}
+
+#ctaSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+#cta{
+    border-radius: 15px;
+    color: white;
+    padding: 0 100px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    min-height: 40%;
+    background-color: #2f90ff;
+    width: 50%;
+}
+
+#ctaButtonSection{
+    font-size: 85%;
+}
+
+#cta button{
+    width: 140px;
+    height: 40px;
+    font-size: 100%;
+    color: white;
+    border: solid 3px white;
+    border-radius: 8px;
+    background-color: #2f90ff;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #181d31;
+    height: 100px;
+    color: white;
+}
+
+#postSection{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.post{
+    border: 3px solid #2f90ff;
+    width: 28%;
+    min-height: 300px;
+    margin: 30px 30px;
+}
+
+.weatherPost{
+    border: 3px solid #2f90ff;
+    width: 28%;
+    height: 350px;
+    margin: 30px 30px;
+}
+
+.weatherPost h2{
+    text-align: center;
+}
+
+.weatherData{
+    margin: 0px 20px;
+}
+
