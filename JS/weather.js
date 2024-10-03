@@ -31,7 +31,8 @@ function createPost(post, title)
     newDiv.innerHTML = `<h2>${title}</h2><div class="weatherData">
     <b>Time:</b> ${post.current_weather.time}<br>
     <b>Temperature:</b> ${post.current_weather.temperature} °C<br>
-    <b>Wind speed:</b> ${post.current_weather.temperature} m/s<br>
+    <b>Wind speed:</b> ${post.current_weather.windspeed} m/s<br>
+    <b>Wind direction:</b> ${post.current_weather.winddirection}
     </div>`
 
     parent.appendChild(newDiv);  //Add the new element to the document
